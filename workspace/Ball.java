@@ -27,6 +27,10 @@ public class Ball {
 	}
 
 	//methods:
+//
+//  Pre-condition: input g
+//  Post-condition: will make a ball grpahic with color and a size
+//
 	public void draw(Graphics g){
 		g.setColor(Color.green);
 		g.fillOval(Xpos , Ypos, size, size);

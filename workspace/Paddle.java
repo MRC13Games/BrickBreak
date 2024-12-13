@@ -27,6 +27,10 @@ public class Paddle {
 	}
 
 	//methods:
+	//
+//  Pre-condition: input g
+//  Post-condition: will make a paddle grpahic with color and a size
+//
 	public void draw(Graphics g){
 		g.setColor(Color.yellow);
 		g.fillRect(X , Y, Width, Height);
